@@ -33,6 +33,10 @@ class line {
     });
   }
 
+  /**
+   * 
+   * @returns line[]
+   */
   getLines() {
     let lines = [this];
 
