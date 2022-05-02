@@ -49,7 +49,7 @@ class line {
 }
 
 /**
- *
+ * @param {string[]} sources
  * @param {line} parentNode
  * @param {number} depth
  */
