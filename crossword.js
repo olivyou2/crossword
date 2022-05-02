@@ -95,8 +95,15 @@ const inference = (sources, parentNode, depth = 0) => {
   }
 };
 
+module.exports = {
+    connectionRelate,
+    line,
+    inference
+}
+
 // Example
 
+/*
 const sources = ["apple", "popcat", "asdcgih"];
 
 let parentNode = new line(5, "w1", [
@@ -122,3 +129,4 @@ const lines = parentNode.getLines();
 for (const line of lines) {
   console.log(`${line.index} -> ${line.word}`);
 }
+*/
